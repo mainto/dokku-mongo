@@ -1,6 +1,6 @@
 # dokku mongo (beta) [![Build Status](https://img.shields.io/travis/dokku/dokku-mongo.svg?branch=master "Build Status")](https://travis-ci.org/dokku/dokku-mongo) [![IRC Network](https://img.shields.io/badge/irc-freenode-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=dokku)
 
-Official mongo plugin for dokku. Currently defaults to installing [mongo 3.2.1](https://hub.docker.com/_/mongo/).
+mongo plugin for arm. Currently defaults to installing mongo 3.0.9
 
 ## requirements
 
@@ -10,13 +10,9 @@ Official mongo plugin for dokku. Currently defaults to installing [mongo 3.2.1](
 ## installation
 
 ```shell
-# on 0.3.x
-cd /var/lib/dokku/plugins
-git clone https://github.com/dokku/dokku-mongo.git mongo
-dokku plugins-install
 
 # on 0.4.x
-dokku plugin:install https://github.com/dokku/dokku-mongo.git mongo
+dokku plugin:install https://github.com/mainto/dokku-mongo.git mongo
 ```
 
 ## commands
